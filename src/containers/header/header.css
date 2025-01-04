@@ -1,0 +1,12 @@
+.gp-header {
+  width: 100%;
+  height: 100%;
+}
+.gp-header-content {
+  flex-direction: column;
+  text-align: center;
+}
+.gp-header-content h1 {
+  font-size: 48px;
+  line-height: 60px;
+}
