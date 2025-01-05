@@ -1,9 +1,28 @@
-import React from 'react'
-import './brand.css'
+import React from "react";
+import "./brand.css";
+import { google, slack, atlassian, dropbox, shopify } from "./imports";
 const Brand = () => {
   return (
-    <div>Brand</div>
-  )
-}
+    <div className="gpt5__brand section__pading">
+      <div className="gpt5__brand-container">
+        <div>
+          <img src={google} alt="google" />
+        </div>
+        <div>
+          <img src={slack} alt="slack" />
+        </div>
+        <div>
+          <img src={atlassian} alt="atlassian" />
+        </div>
+        <div>
+          <img src={shopify} alt="shopify" />
+        </div>
+        <div>
+          <img src={dropbox} alt="dropbox" />
+        </div>
+      </div>
+    </div>
+  );
+};
 
-export default Brand
+export default Brand;
