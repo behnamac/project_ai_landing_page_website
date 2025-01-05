@@ -4,7 +4,6 @@ import { google, slack, atlassian, dropbox, shopify } from "./imports";
 const Brand = () => {
   return (
     <div className="gpt5__brand section__pading">
-      <div className="gpt5__brand-container">
         <div>
           <img src={google} alt="google" />
         </div>
@@ -21,7 +20,6 @@ const Brand = () => {
           <img src={dropbox} alt="dropbox" />
         </div>
       </div>
-    </div>
   );
 };
 
