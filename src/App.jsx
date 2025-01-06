@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
-import { Brand, Navbar, Article, Cta } from "./components";
-import { Blog, Footer, Header, Possibility, WhatGPT5 } from "./containers";
+import { Brand, Navbar, Article, Cta,Feature } from "./components";
+import { Blog, Footer, Header, Possibility, WhatGPT5,Features } from "./containers";
 const App = () => {
   return (
     <div className="App">
@@ -11,6 +11,7 @@ const App = () => {
       </div>
       <Brand />
       <WhatGPT5 />
+      <Features />
       <Possibility />
       <Cta />
       <Blog />

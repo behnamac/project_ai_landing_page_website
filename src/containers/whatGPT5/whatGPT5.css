@@ -54,8 +54,7 @@
   height: 62vh;
   flex-wrap: wrap;
   flex-direction: column;
-  margin-top: 2rem;
-  gap: 6rem;
+  margin-top: 2rem 0rem;
 }
 
 .gpt5__whatgpt5-container .gpt5__features-container__feature {
@@ -91,6 +90,7 @@
 
   .gpt5__whatgpt5-container {
     flex-direction: row;
+    margin: 2rem 0;
     gap: 0rem;
   }
 
