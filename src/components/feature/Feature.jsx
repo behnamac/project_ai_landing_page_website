@@ -8,7 +8,7 @@ const Features = ({ title, text }) => (
       <h1>{title}</h1>
     </div>
     <div className="gp5__feature-container_feature-text">
-      <p>{text}</p>
+      <p className="truncate-text">{text}</p>
     </div>
   </div>
 );

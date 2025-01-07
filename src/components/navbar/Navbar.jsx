@@ -16,8 +16,8 @@ const Navbar = () => {
           <p><a href="#home">Home</a></p>
           <p><a href="#wgpt5">What is GPT5?</a></p>
           <p><a href="#possibility">Open AI</a></p>
-          <p><a href="#features">Case Studies</a></p>
-          <p><a href="#blog">Library</a></p>
+          <p><a href="#features">Features</a></p>
+          <p><a href="#blog">Blog</a></p>
         </div>
       </div>
       <div className="gpt5__navbar-sign">
