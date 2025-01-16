@@ -1,4 +1,5 @@
 .gpt5__header {
+
   display: flex;
   flex-direction: row;
 }
@@ -77,6 +78,7 @@
 }
 
 .gpt5__header-content__people {
+  
   width: 100%;
   display: flex;
   justify-content: flex-start;
